@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log Input Value</title>
+</head>
+<body>
+
+<!-- Text Input Element -->
+<input type="text" id="inputField" oninput="logInputValue()">
+
+<!-- JavaScript Function -->
+<script>
+    function logInputValue() {
+        var inputValue = document.getElementById("inputField").value;
+        console.log("Input value changed: " + inputValue);
+    }
+</script>
+
+</body>
+</html>
